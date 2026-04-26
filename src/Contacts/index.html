@@ -26,12 +26,12 @@
         <div class="logo-icon"><span>T</span></div>Tesseract
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="../../index.html">Home</a></li>
-        <li><a href="../Mentorship/index.html">Mentorship</a></li>
-        <li><a href="../Placements/index.html">Placements</a></li>
-        <li><a href="../Research/index.html">Research</a></li>
-        <li><a href="../About/index.html">About</a></li>
-        <li><a href="../Contacts/index.html" class="active">Contact</a></li>
+        <li><a href="../../">Home</a></li>
+        <li><a href="../Mentorship/">Mentorship</a></li>
+        <li><a href="../Placements/">Placements</a></li>
+        <li><a href="../Research/">Research</a></li>
+        <li><a href="../About/">About</a></li>
+        <li><a href="../Contacts/" class="active">Contact</a></li>
       </ul>
       <div class="nav-right">
         <button class="mobile-toggle" id="mobileToggle"
@@ -58,102 +58,57 @@
   <!-- Contact Section -->
   <section class="section">
     <div class="container">
-      <div class="grid-2" style="gap:4rem; align-items:start;">
-        <!-- Contact Form -->
-        <div class="fade-in">
-          <div class="glass-card" style="padding:3rem;">
-            <h3 style="margin-bottom:0.5rem; font-size:1.5rem;">Enrollment <span class="text-accent">Inquiry</span></h3>
-            <p style="margin-bottom:2rem; font-size:0.9rem;">Fill out the form and our team will reach out within 24
-              hours.</p>
-            <form id="contactForm">
-              <div class="grid-2" style="gap:1rem;">
-                <div class="form-group">
-                  <label for="firstName">First Name *</label>
-                  <input type="text" id="firstName" placeholder="Your first name" required>
-                </div>
-                <div class="form-group">
-                  <label for="lastName">Last Name *</label>
-                  <input type="text" id="lastName" placeholder="Your last name" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" placeholder="you@example.com" required>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number *</label>
-                <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required>
-              </div>
-              <div class="grid-2" style="gap:1rem;">
-                <div class="form-group">
-                  <label for="program">Interested Domain</label>
-                  <select id="program">
-                    <option value="">Select your domain</option>
-                    <option value="dsa">Data Structures & Algorithms</option>
-                    <option value="ml">Machine Learning & DS</option>
-                    <option value="programming">Advanced Programming</option>
-                    <option value="research">Research & Publications</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="track">Current Status</label>
-                  <select id="track">
-                    <option value="">Select your status</option>
-                    <option value="student">College Student (BCA/B.Tech/etc.)</option>
-                    <option value="graduate">Recent Graduate</option>
-                    <option value="professional">Working Professional</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="message">Tell Us About Your Goals</label>
-                <textarea id="message"
-                  placeholder="What are your career aspirations? Where do you need help?"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Submit
-                Inquiry</button>
-            </form>
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; align-items: stretch;">
+
+        <div class="glass-card fade-in" style="text-align: center; padding: 3rem 2rem;">
+          <div class="icon-box teal"
+            style="margin: 0 auto 1.5rem; width: 80px; height: 80px; font-size: 2.5rem; display: flex; align-items: center; justify-content: center; background: rgba(45,212,191,0.1); border-radius: 50%; color: var(--teal);">
+            <i class='bx bx-envelope'></i>
           </div>
+          <h3 style="font-size: 1.25rem;">Email Us</h3>
+          <p style="margin-top: 1rem;">
+            <a href="mailto:resamskar@gmail.com"
+              style="color: var(--text-primary); font-weight: 500; font-size: 1.1rem; text-decoration: none;">resamskar@gmail.com</a>
+          </p>
+          <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-muted);">We typically respond within 24
+            hours.</p>
         </div>
 
-        <!-- Contact Info -->
-        <div class="fade-in fade-in-delay-2">
-          <div class="glass-card" style="margin-bottom:2rem;">
-            <div class="icon-box"><i class='bx bx-envelope'></i></div>
-            <h3>Email Us</h3>
-            <p style="margin-top:0.75rem;">
-              <a href="mailto:hello@tesseract.resamskar.com"
-                style="color:var(--text-primary); font-weight:500;">hello@tesseract.resamskar.com</a>
-            </p>
-            <p style="font-size:0.85rem; margin-top:0.25rem;">We respond within 24 hours</p>
+        <div class="glass-card fade-in fade-in-delay-1" style="text-align: center; padding: 3rem 2rem;">
+          <div class="icon-box"
+            style="margin: 0 auto 1.5rem; width: 80px; height: 80px; font-size: 2.5rem; display: flex; align-items: center; justify-content: center; background: rgba(201,168,76,0.1); border-radius: 50%; color: var(--accent);">
+            <i class='bx bx-phone'></i>
           </div>
+          <h3 style="font-size: 1.25rem;">Call Us</h3>
+          <p style="margin-top: 1rem;">
+            <a href="tel:+919955477663"
+              style="color: var(--text-primary); font-weight: 500; font-size: 1.1rem; text-decoration: none;">+91 99554
+              77663</a>
+          </p>
+          <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-muted);">Mon – Sat, 10 AM – 7 PM IST</p>
+        </div>
 
-          <div class="glass-card" style="margin-bottom:2rem;">
-            <div class="icon-box teal"><i class='bx bx-phone'></i></div>
-            <h3>Call Us</h3>
-            <p style="margin-top:0.75rem;">
-              <a href="tel:+919876543210" style="color:var(--text-primary); font-weight:500;">+91 98765 43210</a>
-            </p>
-            <p style="font-size:0.85rem; margin-top:0.25rem;">Mon – Sat, 10 AM – 7 PM IST</p>
+        <div class="glass-card fade-in fade-in-delay-2" style="text-align: center; padding: 3rem 2rem;">
+          <div class="icon-box purple"
+            style="margin: 0 auto 1.5rem; width: 80px; height: 80px; font-size: 2.5rem; display: flex; align-items: center; justify-content: center; background: rgba(167,139,250,0.1); border-radius: 50%; color: var(--purple);">
+            <i class='bx bx-map'></i>
           </div>
+          <h3 style="font-size: 1.25rem;">Visit Us</h3>
+          <p
+            style="margin-top: 1rem; color: var(--text-primary); font-weight: 500; font-size: 1.05rem; line-height: 1.6;">
+            D/12, D-Road, Anil Sur Path,<br>Uliyan, Kadma,<br>Jamshedpur-831005
+          </p>
+        </div>
 
-          <div class="glass-card" style="margin-bottom:2rem;">
-            <div class="icon-box purple"><i class='bx bx-map'></i></div>
-            <h3>Visit Us</h3>
-            <p style="margin-top:0.75rem; color:var(--text-primary); font-weight:500;">ReSamskar HQ</p>
-            <p style="font-size:0.85rem; margin-top:0.25rem;">India</p>
-          </div>
+      </div>
 
-          <div class="glass-card">
-            <div class="icon-box"><i class='bx bx-message-square-dots'></i></div>
-            <h3>Connect on Social</h3>
-            <div style="margin-top:1rem; display:flex; gap:0.75rem;">
-              <a href="#" class="btn btn-outline" style="padding:0.5rem 1rem; font-size:0.8rem;">LinkedIn</a>
-              <a href="#" class="btn btn-outline" style="padding:0.5rem 1rem; font-size:0.8rem;">Instagram</a>
-              <a href="#" class="btn btn-outline" style="padding:0.5rem 1rem; font-size:0.8rem;">Twitter</a>
-            </div>
-          </div>
+      <div class="glass-card fade-in fade-in-delay-3" style="margin-top: 2rem; text-align: center; padding: 2.5rem;">
+        <h3 style="margin-bottom: 1.5rem; font-size: 1.25rem;">Connect on Social</h3>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="#" class="btn btn-outline" style="padding: 0.75rem 1.5rem;">LinkedIn</a>
+          <a href="#" class="btn btn-outline" style="padding: 0.75rem 1.5rem;">Instagram</a>
+          <a href="#" class="btn btn-outline" style="padding: 0.75rem 1.5rem;">Twitter</a>
         </div>
       </div>
     </div>
@@ -231,10 +186,10 @@
             transforms them into a capable tech professional — mind, skills, and career.</p>
         </div>
         <div style="flex: 1 1 400px; display: flex; flex-direction: column; gap: 2rem; align-items: flex-start;">
-          <a href="mailto:hello@tesseract.resamskar.com"
-            style="font-family: var(--font-heading); font-size: clamp(1.5rem, 3vw, 2.5rem); font-style: italic; color: var(--accent); text-decoration: none; transition: var(--transition);">hello@tesseract.resamskar.com</a>
+          <a href="mailto:resamskar@gmail.com"
+            style="font-family: var(--font-heading); font-size: clamp(1.5rem, 3vw, 2.5rem); font-style: italic; color: var(--accent); text-decoration: none; transition: var(--transition);">resamskar@gmail.com</a>
           <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-            <a href="https://wa.me/+919032572695" class="btn btn-outline"
+            <a href="https://wa.me/919955477663" class="btn btn-outline"
               style="border-radius: 50px; padding: 0.75rem 2rem;">WhatsApp</a>
           </div>
         </div>
