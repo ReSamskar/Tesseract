@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Science & Machine Learning: Master Applied AI</title>
+  <meta name="description"
+    content="Dive deep into data intelligence. Learn applied statistics, supervised & deep learning, and deploy ML models using web technologies.">
+  <meta name="keywords"
+    content="data science mentorship, machine learning training, applied statistics, deep learning, ML model deployment, AI course">
+  <meta property="og:title" content="Data Science & Machine Learning: Master Applied AI">
+  <meta property="og:description"
+    content="Dive deep into data intelligence. Learn applied statistics, supervised & deep learning, and deploy ML models using web technologies.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◇</text></svg>">
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <div class="logo-icon"><span>T</span></div>Tesseract
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/mentorship/">Mentorship</a></li>
+        <li><a href="/placements/">Placements</a></li>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="mobile-toggle" id="mobileToggle"
+          aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. Hero Section -->
+  <section class="page-header" style="padding: 180px 0 100px;">
+    <div class="hero-bg">
+      <div class="grid-pattern"></div>
+      <div class="glow-orb gold"></div>
+      <div class="glow-orb teal"></div>
+    </div>
+    <div class="container" style="position:relative; z-index:2;">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">→</span><a
+          href="programs.html">Programs</a><span class="sep">→</span><span class="current">DS & ML</span></div>
+      <span class="label"
+        style="color:var(--teal); border-color:rgba(45,212,191,0.2); background:rgba(45,212,191,0.1);">Trending
+        Track</span>
+      <h1 style="font-size: clamp(3rem, 5vw, 4.5rem); margin-top: 1rem;">Data Science and <br><span
+          class="text-teal">Machine Learning</span></h1>
+      <p style="font-size: 1.25rem; max-width: 800px; margin: 1.5rem auto 2.5rem; font-weight: 400;">Dive deep into data
+        intelligence and build real-world AI applications. Learn everything from applied statistics to neural networks,
+        while mastering web technologies to deploy your models.</p>
+      <a href="#pricing" class="btn btn-primary"
+        style="padding: 1rem 2.5rem; font-size: 1.1rem; border-radius: 50px;">View Pricing & Enroll</a>
+    </div>
+  </section>
+
+  <!-- 2. Program Highlights -->
+  <section class="section" style="background:var(--bg-secondary); position: relative; overflow: hidden;">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Why This Program?</span>
+        <h2>Program <span class="text-accent">Highlights</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Everything you need to go from data enthusiast to AI practitioner.</p>
+      </div>
+
+      <div class="grid-3 fade-in" style="margin-top:3rem; gap: 2rem;">
+        <div class="glass-card" style="padding: 2.5rem;">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-laptop'></i></div>
+          <h3 style="font-size: 1.3rem; margin-bottom:1rem;">Expert Mentorship</h3>
+          <p style="color:var(--text-muted); line-height: 1.6; font-size: 0.95rem;">Train under professionals deploying
+            ML models in production. We review your models and optimize your approach.</p>
+        </div>
+        <div class="glass-card" style="padding: 2.5rem;">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-certification'></i></div>
+          <h3 style="font-size: 1.3rem; margin-bottom:1rem;">Assured Internship</h3>
+          <p style="color:var(--text-muted); line-height: 1.6; font-size: 0.95rem;">Complete your capstone and earn an
+            official internship certificate validating your hands-on data experience.</p>
+        </div>
+        <div class="glass-card" style="padding: 2.5rem;">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-globe'></i></div>
+          <h3 style="font-size: 1.3rem; margin-bottom:1rem;">End-to-End Deployment</h3>
+          <p style="color:var(--text-muted); line-height: 1.6; font-size: 0.95rem;">Most courses stop at Jupyter
+            notebooks. We teach you the web frameworks needed to deploy your models into production APIs and web
+            interfaces.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2.5 Who is this Program For -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Your Starting Point</span>
+        <h2>Who is this <span class="text-accent">Program For?</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">No matter where you're starting, we have a structured path for you.</p>
+      </div>
+      <div class="grid-3" style="margin-top:3rem;">
+        <div class="glass-card fade-in" style="padding:2.5rem; text-align:center;">
+          <div style="font-size:3rem; margin-bottom:1rem;"><i class='bx bx-calculator'></i></div>
+          <h4 style="font-size:1.2rem; margin-bottom:0.5rem;">Analytical Minds</h4>
+          <p style="color:var(--text-muted); font-size:0.95rem;">Love math and statistics? We turn that passion into
+            predictive models.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-1" style="padding:2.5rem; text-align:center;">
+          <div style="font-size:3rem; margin-bottom:1rem;"><i class='bx bx-refresh'></i></div>
+          <h4 style="font-size:1.2rem; margin-bottom:0.5rem;">Career Switchers</h4>
+          <p style="color:var(--text-muted); font-size:0.95rem;">Moving from IT/Support into the high-growth Data
+            Science domain.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-2" style="padding:2.5rem; text-align:center;">
+          <div style="font-size:3rem; margin-bottom:1rem;"><i class='bx bx-line-chart'></i></div>
+          <h4 style="font-size:1.2rem; margin-bottom:0.5rem;">Aspiring Data Scientists</h4>
+          <p style="color:var(--text-muted); font-size:0.95rem;">Looking for a structured roadmap from basic data
+            cleaning to deep learning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Curriculum -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">The Curriculum</span>
+        <h2>Key <span class="text-accent">Focus Areas</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">A mathematically rigorous yet highly practical roadmap to becoming an AI
+          practitioner.</p>
+      </div>
+
+      <div class="grid-2 fade-in" style="margin-top:3rem;">
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(45,212,191,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-bar-chart-alt-2'></i></div>
+          <h3 style="margin-bottom:1rem; color:var(--teal);">Data Engineering & EDA</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Learn to clean, manipulate, and visualize raw data.
+            Master Python libraries like Pandas, NumPy, and Matplotlib to extract meaningful insights.</p>
+        </div>
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(167,139,250,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-bot'></i></div>
+          <h3 style="margin-bottom:1rem; color:var(--purple);">Machine Learning</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Dive into supervised and unsupervised learning.
+            Implement regression, classification, clustering, and ensemble methods using Scikit-Learn.</p>
+        </div>
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(201,168,76,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-brain'></i></div>
+          <h3 style="margin-bottom:1rem; color:var(--accent);">Deep Learning & AI</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Understand neural networks from the ground up. Build
+            complex models using TensorFlow/PyTorch for computer vision and natural language processing.</p>
+        </div>
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(59,130,246,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-rocket'></i></div>
+          <h3 style="margin-bottom:1rem; color:#3b82f6;">Model Deployment (Web)</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">A model isn't useful if it stays in a notebook. Learn
+            the necessary web technologies to deploy your AI models as accessible applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3.5 Tech Stack -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Your Arsenal</span>
+        <h2>Tools & <span class="text-accent">Technologies</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Master the industry-standard tools used by top tech companies.</p>
+      </div>
+      <div class="tech-grid fade-in">
+        <div class="tech-card">
+          <div class="tech-icon"><i class='bx bxl-python'></i></div>
+          <span class="tech-name">Python</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.1s;">
+          <div class="tech-icon"><i class='bx bx-table'></i></div>
+          <span class="tech-name">Pandas</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.2s;">
+          <div class="tech-icon"><i class='bx bx-bot'></i></div>
+          <span class="tech-name">Scikit-Learn</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.3s;">
+          <div class="tech-icon"><i class='bx bx-brain'></i></div>
+          <span class="tech-name">TensorFlow</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.4s;">
+          <div class="tech-icon"><i class='bx bx-data'></i></div>
+          <span class="tech-name">SQL</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.5s;">
+          <div class="tech-icon"><i class='bx bx-globe'></i></div>
+          <span class="tech-name">FastAPI/Flask</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Projects -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Hands-On Experience</span>
+        <h2>Project <span class="text-accent">Portfolio</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Theory is just the beginning. Our mentorship is deeply rooted in building and
+          shipping.</p>
+      </div>
+
+      <div class="grid-2" style="margin-top:3rem; gap:4rem; align-items: stretch;">
+        <!-- Major Project -->
+        <div class="glass-card fade-in"
+          style="padding:3rem; border-color: rgba(45,212,191,0.4); background: linear-gradient(145deg, rgba(45,212,191,0.05) 0%, rgba(0,0,0,0) 100%);">
+          <span class="label" style="color:var(--teal);">Capstone</span>
+          <h3 style="font-size:2rem; margin-top:0.5rem; margin-bottom:1.5rem;">AI Deployment Project</h3>
+          <p style="color:var(--text-muted); line-height:1.7; font-size:1.1rem;">Develop a complete, end-to-end machine
+            learning pipeline. You will gather data, train a sophisticated model, and ultimately deploy it into a
+            functional web interface that users can interact with.</p>
+          <div style="margin-top: 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <span
+              style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.8rem;">Data
+              Engineering</span>
+            <span
+              style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.8rem;">Model
+              Training</span>
+            <span
+              style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.8rem;">Web
+              API Deployment</span>
+          </div>
+        </div>
+
+        <!-- Minor Projects -->
+        <div class="glass-card fade-in fade-in-delay-2" style="padding:3rem;">
+          <span class="label" style="color:var(--text-muted);">Continuous Practice</span>
+          <h3 style="font-size:2rem; margin-top:0.5rem; margin-bottom:1.5rem;">Data/ML Micro Projects</h3>
+          <p style="color:var(--text-muted); line-height:1.7; font-size:1.1rem;">Alongside your capstone, you will
+            tackle multiple micro-projects focusing heavily on data cleaning, feature engineering, and tuning specific
+            algorithms for maximum accuracy.</p>
+          <ul
+            style="margin-top: 1.5rem; list-style: none; padding: 0; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.75rem;">
+            <li><span style="color:var(--teal); margin-right:0.5rem;"><i class='bx bx-check'></i></span> Exploratory
+              Data Analysis</li>
+            <li><span style="color:var(--teal); margin-right:0.5rem;"><i class='bx bx-check'></i></span> Regression &
+              Classification Models</li>
+            <li><span style="color:var(--teal); margin-right:0.5rem;"><i class='bx bx-check'></i></span> Computer Vision
+              & NLP Basics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4.5 Detailed Syllabus -->
+  <section class="section">
+    <div class="container" style="max-width: 900px;">
+      <div class="section-header fade-in">
+        <span class="label">The Roadmap</span>
+        <h2>Detailed <span class="text-accent">Syllabus</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Your exact progression path. Extended durations unlock advanced mastery.</p>
+      </div>
+
+      <div style="margin-top: 4rem; position: relative;">
+        <!-- Timeline Line -->
+        <div
+          style="position: absolute; left: 24px; top: 0; bottom: 0; width: 2px; background: rgba(255,255,255,0.1); z-index: 1;">
+        </div>
+
+        <!-- Phase 1: 3 Months -->
+        <div class="fade-in" style="position: relative; z-index: 2; margin-bottom: 4rem; padding-left: 5rem;">
+          <div
+            style="position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 50%; background: var(--bg-dark); border: 2px solid var(--accent); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--accent);">
+            3M</div>
+          <div class="glass-card" style="padding: 2.5rem; position: relative;">
+            <div
+              style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(255,255,255,0.1); padding: 0.25rem 1rem; border-radius: 50px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
+              Included in all plans</div>
+            <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Phase 1: Core Foundation & EDA</h3>
+
+            <div class="accordion-container">
+              <div class="faq-item"
+                style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+                <button class="faq-question" style="padding: 1rem 1.5rem; font-size: 1.05rem;"
+                  onclick="toggleFaq(this)">Module 1: [Placeholder Title]<span class="icon">+</span></button>
+                <div class="faq-answer">
+                  <p style="padding: 0 1.5rem 1.5rem;">[Placeholder for detailed syllabus topics, practicals, and
+                    assignments.]</p>
+                </div>
+              </div>
+              <div class="faq-item"
+                style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+                <button class="faq-question" style="padding: 1rem 1.5rem; font-size: 1.05rem;"
+                  onclick="toggleFaq(this)">Module 2: [Placeholder Title]<span class="icon">+</span></button>
+                <div class="faq-answer">
+                  <p style="padding: 0 1.5rem 1.5rem;">[Placeholder for detailed syllabus topics, practicals, and
+                    assignments.]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phase 2: 6 Months -->
+        <div class="fade-in" style="position: relative; z-index: 2; margin-bottom: 4rem; padding-left: 5rem;">
+          <div
+            style="position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 50%; background: var(--bg-dark); border: 2px solid var(--teal); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--teal);">
+            6M</div>
+          <div class="glass-card" style="padding: 2.5rem; border-color: rgba(45,212,191,0.2);">
+            <div
+              style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(45,212,191,0.1); color: var(--teal); padding: 0.25rem 1rem; border-radius: 50px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
+              6 & 12 Month Plans</div>
+            <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem; color: var(--teal);">Phase 2: Supervised Learning</h3>
+
+            <div class="accordion-container">
+              <div class="faq-item"
+                style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+                <button class="faq-question" style="padding: 1rem 1.5rem; font-size: 1.05rem;"
+                  onclick="toggleFaq(this)">Module 3: [Placeholder Title]<span class="icon">+</span></button>
+                <div class="faq-answer">
+                  <p style="padding: 0 1.5rem 1.5rem;">[Placeholder for detailed syllabus topics, practicals, and
+                    assignments.]</p>
+                </div>
+              </div>
+              <div class="faq-item"
+                style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+                <button class="faq-question" style="padding: 1rem 1.5rem; font-size: 1.05rem;"
+                  onclick="toggleFaq(this)">Module 4: [Placeholder Title]<span class="icon">+</span></button>
+                <div class="faq-answer">
+                  <p style="padding: 0 1.5rem 1.5rem;">[Placeholder for detailed syllabus topics, practicals, and
+                    assignments.]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phase 3: 12 Months -->
+        <div class="fade-in" style="position: relative; z-index: 2; padding-left: 5rem;">
+          <div
+            style="position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 50%; background: var(--bg-dark); border: 2px solid var(--purple); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--purple);">
+            12M</div>
+          <div class="glass-card" style="padding: 2.5rem; border-color: rgba(167,139,250,0.2);">
+            <div
+              style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(167,139,250,0.1); color: var(--purple); padding: 0.25rem 1rem; border-radius: 50px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
+              12 Month Plan Only</div>
+            <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem; color: var(--purple);">Phase 3: Deep Learning &
+              Deployment</h3>
+
+            <div class="accordion-container">
+              <div class="faq-item"
+                style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+                <button class="faq-question" style="padding: 1rem 1.5rem; font-size: 1.05rem;"
+                  onclick="toggleFaq(this)">Module 5: [Placeholder Title]<span class="icon">+</span></button>
+                <div class="faq-answer">
+                  <p style="padding: 0 1.5rem 1.5rem;">[Placeholder for detailed syllabus topics, practicals, and
+                    assignments.]</p>
+                </div>
+              </div>
+              <div class="faq-item"
+                style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+                <button class="faq-question" style="padding: 1rem 1.5rem; font-size: 1.05rem;"
+                  onclick="toggleFaq(this)">Module 6: [Placeholder Title]<span class="icon">+</span></button>
+                <div class="faq-answer">
+                  <p style="padding: 0 1.5rem 1.5rem;">[Placeholder for detailed syllabus topics, practicals, and
+                    assignments.]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4.8 Career Outcomes -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="grid-2" style="align-items:center; gap:4rem;">
+        <div class="fade-in">
+          <span class="label">The Transformation</span>
+          <h2 style="margin-top:0.75rem;">Your Career <span class="text-accent">Outcomes</span></h2>
+          <p style="margin-top:1.5rem; font-size:1.1rem; line-height:1.8; color:var(--text-muted);">By the end of this
+            program, you will not just know ML theory—you will be able to clean raw data, train accurate models, and put
+            them into production.</p>
+
+          <ul
+            style="margin-top: 2rem; list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1.25rem;">
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <div style="color:var(--accent); font-size:1.5rem; line-height:1;"><i class='bx bx-target-lock'></i></div>
+              <div><strong style="color:var(--text-primary);">Deploy Real Models</strong><br><span
+                  style="font-size:0.95rem; color:var(--text-muted);">Don't just run Jupyter notebooks. Expose your
+                  models via APIs for the real world.</span></div>
+            </li>
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <div style="color:var(--teal); font-size:1.5rem; line-height:1;"><i class='bx bx-building-house'></i>
+              </div>
+              <div><strong style="color:var(--text-primary);">Data Fluency</strong><br><span
+                  style="font-size:0.95rem; color:var(--text-muted);">Clean, structure, and query complex datasets like
+                  a professional Data Engineer.</span></div>
+            </li>
+            <li style="display: flex; gap: 1rem; align-items: flex-start;">
+              <div style="color:var(--purple); font-size:1.5rem; line-height:1;"><i class='bx bx-rocket'></i></div>
+              <div><strong style="color:var(--text-primary);">AI Research Ready</strong><br><span
+                  style="font-size:0.95rem; color:var(--text-muted);">Solid mathematical foundation to read research
+                  papers and implement novel Deep Learning architectures.</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="fade-in fade-in-delay-2">
+          <div class="glass-card"
+            style="padding: 0; overflow: hidden; position: relative; border-color: rgba(45,212,191,0.3);">
+            <!-- Visual representation of success -->
+            <div
+              style="padding: 4rem 3rem; text-align: center; background: linear-gradient(135deg, rgba(45,212,191,0.1) 0%, rgba(0,0,0,0) 100%);">
+              <div style="font-size: 5rem; margin-bottom: 1rem;"><i class='bx bx-line-chart'></i></div>
+              <h3 style="font-size: 1.8rem; color: var(--text-primary);">From Enthusiast to Practitioner</h3>
+              <p style="color: var(--text-muted); margin-top: 1rem;">Your portfolio will consist of actual deployed
+                endpoints, not just offline notebooks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Pricing -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Investment</span>
+        <h2>Mentorship <span class="text-accent">Pricing</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Choose the duration that fits your learning pace. All tiers include full access to
+          the ecosystem.</p>
+      </div>
+
+      <!-- Pricing Grid -->
+      <div class="fade-in" style="margin-top:4rem; max-width: 1000px; margin-left: auto; margin-right: auto;">
+        <div style="display:flex; gap:2rem; flex-wrap:wrap; justify-content:center;">
+          <div class="glass-card"
+            style="flex:1; min-width:280px; max-width:320px; border:1px solid var(--glass-border); border-radius:1.5rem; padding:3rem 2rem; text-align:center;">
+            <div
+              style="font-size:1rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1.5rem; font-weight: 600;">
+              3 Months</div>
+            <div
+              style="font-family:var(--font-heading); font-size:3rem; color:var(--text-primary); margin-bottom: 2rem;">
+              ₹7,500</div>
+            <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:2rem;">Perfect for quick
+              learners who want an intensive, fast-paced bootcamp experience into Data Science.</p>
+            <a href="/contact/" class="btn btn-outline" style="width:100%; justify-content:center;">Select Plan</a>
+          </div>
+
+          <div class="glass-card"
+            style="flex:1; min-width:280px; max-width:320px; border:1px solid var(--glass-border); border-radius:1.5rem; padding:3rem 2rem; text-align:center;">
+            <div
+              style="font-size:1rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1.5rem; font-weight: 600;">
+              6 Months</div>
+            <div
+              style="font-family:var(--font-heading); font-size:3rem; color:var(--text-primary); margin-bottom: 2rem;">
+              ₹12,000</div>
+            <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:2rem;">The standard
+              duration. Ideal for balancing academics with consistent Deep Learning upskilling.</p>
+            <a href="/contact/" class="btn btn-outline" style="width:100%; justify-content:center;">Select Plan</a>
+          </div>
+
+          <div class="glass-card"
+            style="flex:1; min-width:280px; max-width:320px; background:rgba(45,212,191,0.05); border:1px solid rgba(45,212,191,0.3); border-radius:1.5rem; padding:3rem 2rem; text-align:center; position:relative; overflow:hidden; transform: scale(1.05); z-index: 2;">
+            <div style="position:absolute; top:0; left:0; width:100%; height:6px; background:var(--teal);"></div>
+            <div
+              style="position:absolute; top:1rem; right:-2rem; background:var(--teal); color:#000; font-size:0.7rem; font-weight:bold; padding:0.25rem 2.5rem; transform:rotate(45deg); letter-spacing:0.1em;">
+              PREMIUM</div>
+            <div
+              style="font-size:1rem; color:var(--teal); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1.5rem; font-weight:bold;">
+              12 Months</div>
+            <div
+              style="font-family:var(--font-heading); font-size:3rem; color:var(--text-primary); margin-bottom: 2rem;">
+              ₹18,000</div>
+            <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:2rem;">A full year of
+              continuous mentorship, multiple AI projects, and extensive placement preparation.</p>
+            <a href="/contact/" class="btn btn-primary" style="width:100%; justify-content:center;">Select Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container" style="max-width:800px;">
+      <div class="section-header fade-in">
+        <span class="label">Course FAQ</span>
+        <h2>Frequently Asked<br><span class="text-accent">Questions</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="fade-in">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Do I need to be a math genius?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>Not at all. While Machine Learning involves statistics and calculus, we teach the applied math you need
+              alongside the programming concepts. You just need a willingness to learn.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Which language will we use?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>This track is primarily taught in Python due to its industry-leading ecosystem for Data Science and
+              Machine Learning (Pandas, Scikit-Learn, TensorFlow/PyTorch).</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">How does the assured internship work?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>Upon successful completion of your major capstone project and all evaluations, you will be granted an
+              official internship certificate from ReSamskar, validating your project work as formal industry
+              experience.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">What kind of support will I get?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>You will have continuous access to your mentor. This includes code reviews, architecture discussions,
+              doubt clearing on complex ML concepts, and regular progress tracking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner fade-in">
+        <span class="label">Ready to Innovate?</span>
+        <h2 style="margin-top:1rem;">Start Your AI <span class="text-accent">Journey Today</span></h2>
+        <p>Enroll in the Data Science & ML track to build the intelligence systems of tomorrow.</p>
+        <a href="/contact/" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer" style="padding: 100px 0 0;">
+    <div class="container">
+      <div
+        style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 3rem; margin-bottom: 5rem;">
+        <div style="flex: 1 1 400px;">
+          <span class="label" style="font-size: 0.85rem; letter-spacing: 0.2em;">BEGIN THE JOURNEY</span>
+          <h2 style="margin-top: 1rem; font-size: 2.5rem; letter-spacing: -0.02em;">Accelerate Your Career</h2>
+          <p style="margin-top: 1.5rem; font-size: 1.1rem; max-width: 500px;">Every student deserves an education that
+            transforms them into a capable tech professional — mind, skills, and career.</p>
+        </div>
+        <div style="flex: 1 1 400px; display: flex; flex-direction: column; gap: 2rem; align-items: flex-start;">
+          <a href="mailto:hello@tesseract.resamskar.com"
+            style="font-family: var(--font-heading); font-size: clamp(1.5rem, 3vw, 2.5rem); font-style: italic; color: var(--accent); text-decoration: none; transition: var(--transition);">hello@tesseract.resamskar.com</a>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://wa.me/+919955477663" class="btn btn-outline"
+              style="border-radius: 50px; padding: 0.75rem 2rem;">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="border-top: 1px solid var(--glass-border); padding: 2rem 0;">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <a href="/" class="nav-logo">
+            <div class="logo-icon"><span>T</span></div>
+            Tesseract
+          </a>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">© 2026 Tesseract by ReSamskar. All rights
+            reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobileToggle').addEventListener('click', () => { document.getElementById('navLinks').classList.toggle('open'); });
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    window.addEventListener('scroll', () => { document.getElementById('navbar').style.padding = window.scrollY > 50 ? '0.5rem 0' : '1rem 0'; });
+
+    function toggleFaq(btn) {
+      const item = btn.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Programming and Data Structures</title>
+  <meta name="description"
+    content="Build a rock-solid foundation in programming logic. Master Java as your core language, deep dive into complex data structures, and build full-stack web applications from scratch. Includes assured internship!">
+  <meta name="keywords"
+    content="Learn Java from scratch, Java data structures and algorithms, full-stack programming fundamentals, core Java mentorship, beginner coding internship">
+  <meta property="og:title" content="Java Programming and Data Structures">
+  <meta property="og:description"
+    content="Build a rock-solid foundation in programming logic. Master Java as your core language, deep dive into complex data structures, and build full-stack web applications from scratch. Includes assured internship!">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◇</text></svg>">
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon"><span>T</span></div>Tesseract
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mentorship.html">Mentorship</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="mobile-toggle" id="mobileToggle"
+          aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. Hero Section -->
+  <section class="page-header">
+    <div class="hero-bg">
+      <div class="grid-pattern"></div>
+      <div class="glow-orb gold"></div>
+      <div class="glow-orb teal"></div>
+    </div>
+    <div class="container" style="position:relative; z-index:2;">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">→</span><a
+          href="mentorship.html">Mentorship</a><span class="sep">→</span><span class="current">Java & DSA</span></div>
+      <span class="label"
+        style="color:var(--purple); border-color:rgba(167,139,250,0.2); background:rgba(167,139,250,0.1);">Foundational
+        Track</span>
+      <h1 style="font-size: clamp(3rem, 5vw, 4.5rem); margin-top: 1rem;">Java Programming and <br><span
+          class="accent">Data Structures</span></h1>
+      <p style="font-size: 1.25rem; max-width: 800px; margin: 1.5rem auto 2.5rem; font-weight: 400;">Don't just learn
+        syntax—learn how to think like a software engineer. Deep dive into complex data structures and build
+        interactive, real-world applications from day one under the guidance of industry experts.</p>
+      <a href="#pricing" class="btn btn-primary"
+        style="padding: 1rem 2.5rem; font-size: 1.1rem; border-radius: 50px;">View Pricing & Enroll</a>
+    </div>
+  </section>
+
+
+  <!-- 2.5 Who is this Program For -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Your Starting Point</span>
+        <h2>Who is this <span class="text-accent">Program For?</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">No matter where you're starting, we have a structured path for you.</p>
+      </div>
+      <div class="grid-3" style="margin-top:3rem;">
+        <div class="glass-card fade-in" style="padding:2.5rem; text-align:center;">
+          <div style="font-size:3rem; margin-bottom:1rem;"><i class='bx bxs-graduation'></i></div>
+          <h4 style="font-size:1.2rem; margin-bottom:0.5rem;">Complete Beginners</h4>
+          <p style="color:var(--text-muted); font-size:0.95rem;">Zero coding experience? We will build your logic from
+            the ground up.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-1" style="padding:2.5rem; text-align:center;">
+          <div style="font-size:3rem; margin-bottom:1rem;"><i class='bx bx-refresh'></i></div>
+          <h4 style="font-size:1.2rem; margin-bottom:0.5rem;">Branch Shifters</h4>
+          <p style="color:var(--text-muted); font-size:0.95rem;">Moving from core engineering to IT? Catch up fast and
+            safely.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-2" style="padding:2.5rem; text-align:center;">
+          <div style="font-size:3rem; margin-bottom:1rem;"><i class='bx bx-extension'></i></div>
+          <h4 style="font-size:1.2rem; margin-bottom:0.5rem;">Stuck Learners</h4>
+          <p style="color:var(--text-muted); font-size:0.95rem;">Know the syntax but can't build projects? We'll fix
+            your logic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Curriculum -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">The Curriculum</span>
+        <h2>Key <span class="text-accent">Focus Areas</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">A meticulously crafted roadmap from foundational Java to advanced algorithms and
+          Spring Boot microservices.</p>
+      </div>
+
+      <div class="grid-2 fade-in" style="margin-top:3rem;">
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(201,168,76,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bxl-java'></i></div>
+          <h3 style="margin-bottom:1rem; color:var(--accent);">Java Core & OOP</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Master Java's strict syntax, data types, control flow,
+            and deep object-oriented principles — from inheritance to multithreading and the Collections Framework.</p>
+        </div>
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(45,212,191,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-network-chart'></i></div>
+          <h3 style="margin-bottom:1rem; color:var(--teal);">Data Structures & Algorithms</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Conquer coding interviews by building strong algorithmic
+            logic. From basic Arrays and Linked Lists to advanced Trees, Graphs, and Dynamic Programming.</p>
+        </div>
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(167,139,250,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-layer'></i></div>
+          <h3 style="margin-bottom:1rem; color:var(--purple);">Projects</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Build something every day. Daily micro-projects cement
+            concepts, mini-projects combine skills, and a final Capstone project — chosen with your mentor — goes on
+            your resume.</p>
+        </div>
+        <div class="glass-card" style="padding:2.5rem; border-color: rgba(59,130,246,0.2);">
+          <div style="font-size:2.5rem; margin-bottom:1.5rem;"><i class='bx bx-badge-check'></i></div>
+          <h3 style="margin-bottom:1rem; color:#3b82f6;">Interview Preparation</h3>
+          <p style="color:var(--text-muted); line-height: 1.6;">Dedicated mock technical rounds, code review sessions,
+            aptitude practice, and resume-building guidance to make you placement-ready before you even graduate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3.5 Tech Stack -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Your Arsenal</span>
+        <h2>Tools & <span class="text-accent">Technologies</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Master the exact enterprise tech stack demanded by top product companies.</p>
+      </div>
+      <div class="tech-grid fade-in">
+        <div class="tech-card">
+          <div class="tech-icon"><i class='bx bxl-java'></i></div>
+          <span class="tech-name">Java</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.1s;">
+          <div class="tech-icon"><i class='bx bx-globe'></i></div>
+          <span class="tech-name">HTML & CSS</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.2s;">
+          <div class="tech-icon"><i class='bx bxl-javascript'></i></div>
+          <span class="tech-name">JavaScript</span>
+        </div>
+        <div class="tech-card" style="animation-delay: 0.3s;">
+          <div class="tech-icon"><i class='bx bxl-github'></i></div>
+          <span class="tech-name">Git & GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Projects -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Hands-On Experience</span>
+        <h2>Project <span class="text-accent">Portfolio</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">You learn best by building. This track is highly intensive and heavily
+          project-driven.</p>
+      </div>
+
+      <div class="grid-2" style="margin-top:3rem; gap:4rem; align-items: stretch;">
+        <!-- Major Project -->
+        <div class="glass-card fade-in"
+          style="padding:3rem; border-color: rgba(201,168,76,0.4); background: linear-gradient(145deg, rgba(201,168,76,0.05) 0%, rgba(0,0,0,0) 100%);">
+          <span class="label" style="color:var(--accent);">Capstone</span>
+          <h3 style="font-size:2rem; margin-top:0.5rem; margin-bottom:1.5rem;">Capstone Project</h3>
+          <p style="color:var(--text-muted); line-height:1.7; font-size:1.1rem;">The final major project is decided
+            together by the mentor and student — based on your interests, strengths, and career goals. It's not
+            assigned, it's <em>yours</em>. Build something you're genuinely proud to show on your resume.</p>
+          <div style="margin-top: 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <span
+              style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.8rem;">Mentor-Guided
+              Choice</span>
+            <span
+              style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.8rem;">Full-Stack
+              or Backend</span>
+            <span
+              style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border-radius: 4px; font-size: 0.8rem;">Resume-Ready</span>
+          </div>
+        </div>
+
+        <!-- Minor Projects -->
+        <div class="glass-card fade-in fade-in-delay-2" style="padding:3rem;">
+          <span class="label" style="color:var(--text-muted);">Continuous Practice</span>
+          <h3 style="font-size:2rem; margin-top:0.5rem; margin-bottom:1.5rem;">Daily Micro & Many Mini Projects</h3>
+          <p style="color:var(--text-muted); line-height:1.7; font-size:1.1rem;">You will build 1 micro-project almost
+            every single day to cement the topics learned. Alongside these, you'll complete many mini-projects that
+            combine multiple concepts into functional utilities.</p>
+          <ul
+            style="margin-top: 1.5rem; list-style: none; padding: 0; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.75rem;">
+            <li><span style="color:var(--purple); margin-right:0.5rem;"><i class='bx bx-check'></i></span> Daily Logic &
+              Array Challenges</li>
+            <li><span style="color:var(--purple); margin-right:0.5rem;"><i class='bx bx-check'></i></span> Banking
+              System (OOP Mini Project)</li>
+            <li><span style="color:var(--purple); margin-right:0.5rem;"><i class='bx bx-check'></i></span> Library
+              Management (JDBC/SQL)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4.5 Detailed Syllabus -->
+  <section class="section">
+    <div class="container" style="max-width: 900px;">
+      <div class="section-header fade-in">
+        <span class="label">The Roadmap</span>
+        <h2>Detailed <span class="text-accent">Syllabus</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Your exact progression path. Extended durations unlock advanced mastery.</p>
+      </div>
+
+      <div style="margin-top: 4rem; position: relative;">
+        <!-- Timeline Line -->
+        <div
+          style="position: absolute; left: 24px; top: 0; bottom: 0; width: 2px; background: rgba(255,255,255,0.1); z-index: 1;">
+        </div>
+
+        <!-- Phase 1: 3 Months -->
+        <div class="fade-in" style="position: relative; z-index: 2; margin-bottom: 4rem; padding-left: 5rem;">
+          <div
+            style="position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 50%; background: var(--bg-dark); border: 2px solid var(--accent); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--accent);">
+            3M</div>
+          <div class="glass-card" style="padding: 2.5rem; position: relative;">
+            <div
+              style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(255,255,255,0.1); padding: 0.25rem 1rem; border-radius: 50px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
+              Included in all plans</div>
+            <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Phase 1: Core Foundation</h3>
+
+            <div class="accordion-container" id="syllabus-phase-1"></div>
+          </div>
+        </div>
+
+        <!-- Phase 2: 6 Months -->
+        <div class="fade-in" style="position: relative; z-index: 2; margin-bottom: 4rem; padding-left: 5rem;">
+          <div
+            style="position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 50%; background: var(--bg-dark); border: 2px solid var(--teal); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--teal);">
+            6M</div>
+          <div class="glass-card" style="padding: 2.5rem; border-color: rgba(45,212,191,0.2);">
+            <div
+              style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(45,212,191,0.1); color: var(--teal); padding: 0.25rem 1rem; border-radius: 50px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
+              6 & 12 Month Plans</div>
+            <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem; color: var(--teal);">Phase 2: Advanced & Projects</h3>
+
+            <div class="accordion-container" id="syllabus-phase-2"></div>
+          </div>
+        </div>
+
+        <!-- Phase 3: 12 Months -->
+        <div class="fade-in" style="position: relative; z-index: 2; padding-left: 5rem;">
+          <div
+            style="position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 50%; background: var(--bg-dark); border: 2px solid var(--purple); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--purple);">
+            12M</div>
+          <div class="glass-card" style="padding: 2.5rem; border-color: rgba(167,139,250,0.2);">
+            <div
+              style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(167,139,250,0.1); color: var(--purple); padding: 0.25rem 1rem; border-radius: 50px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
+              12 Month Plan Only</div>
+            <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem; color: var(--purple);">Phase 3: Mastery & Placement
+            </h3>
+
+            <div class="accordion-container" id="syllabus-phase-3"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4.8 From Beginner to Builder: Your Career Outcomes -->
+  <section class="section" style="background:var(--bg-secondary); position: relative; overflow: hidden;">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">From Beginner to Builder</span>
+        <h2 style="margin-top: 0.75rem;">Your resume will speak through the <span class="text-accent">code you've
+            written</span>,<br>not just the certificates you hold.</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">This isn't a theoretical course. From day one, you are typing, compiling, and
+          debugging. By the time you graduate, you will have the confidence, the portfolio, and the technical depth to
+          step into the industry.</p>
+      </div>
+
+      <div class="grid-2 fade-in" style="align-items: center; gap: 4rem; margin-top: 3rem;">
+        <!-- Image side -->
+        <div style="position: relative;">
+          <div
+            style="position: absolute; inset: -20px; background: var(--gradient-accent); filter: blur(50px); opacity: 0.15; border-radius: 20px;">
+          </div>
+          <img src="./images/dashboard.jpg" alt="Beginner to Builder Dashboard"
+            style="width: 100%; border-radius: 1rem; border: 1px solid var(--glass-border); position: relative; z-index: 2; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+        </div>
+
+        <!-- Outcomes side -->
+        <div>
+          <h3 style="font-size: 1.3rem; color: var(--text-muted); font-weight: 400; margin-bottom: 2rem;">After
+            completing this program, you will be able to:</h3>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1.5rem;">
+            <li style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="color:var(--accent); font-size:1.8rem; line-height:1; flex-shrink: 0;"><i
+                  class='bx bx-target-lock'></i></div>
+              <div><strong style="color:var(--text-primary); font-size: 1.05rem;">Build & Deploy Real
+                  Applications</strong><br><span style="font-size:0.95rem; color:var(--text-muted);">Go from zero to
+                  deploying full-stack Spring Boot + React web apps backed by a live MySQL database.</span></div>
+            </li>
+            <li style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="color:var(--teal); font-size:1.8rem; line-height:1; flex-shrink: 0;"><i
+                  class='bx bx-code-block'></i></div>
+              <div><strong style="color:var(--text-primary); font-size: 1.05rem;">Crack Technical
+                  Rounds</strong><br><span style="font-size:0.95rem; color:var(--text-muted);">Confidently solve DSA
+                  problems in interviews — Arrays, Trees, Graphs, and Dynamic Programming.</span></div>
+            </li>
+            <li style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="color:var(--purple); font-size:1.8rem; line-height:1; flex-shrink: 0;"><i
+                  class='bx bx-git-merge'></i></div>
+              <div><strong style="color:var(--text-primary); font-size: 1.05rem;">Massive GitHub
+                  Portfolio</strong><br><span style="font-size:0.95rem; color:var(--text-muted);">Hundreds of daily
+                  micro-projects, mini-projects, and major capstones — all version-controlled and live.</span></div>
+            </li>
+            <li style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="color:#ec4899; font-size:1.8rem; line-height:1; flex-shrink: 0;"><i class='bx bx-rocket'></i>
+              </div>
+              <div><strong style="color:var(--text-primary); font-size: 1.05rem;">Ready for
+                  Specialization</strong><br><span style="font-size:0.95rem; color:var(--text-muted);">Exit fully
+                  prepared to enter advanced domains — MERN, Spring Microservices, Cloud, or Data Science.</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Pricing -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Investment</span>
+        <h2>Mentorship <span class="text-accent">Pricing</span></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Choose the duration that fits your learning pace. All tiers include full access to
+          the ecosystem.</p>
+      </div>
+
+      <!-- Pricing Grid -->
+      <div class="fade-in" style="margin-top:4rem; max-width: 1000px; margin-left: auto; margin-right: auto;">
+        <div style="display:flex; gap:2rem; flex-wrap:wrap; justify-content:center;">
+          <div class="glass-card"
+            style="flex:1; min-width:280px; max-width:320px; border:1px solid var(--glass-border); border-radius:1.5rem; padding:3rem 2rem; text-align:center;">
+            <div
+              style="font-size:1rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1.5rem; font-weight: 600;">
+              3 Months</div>
+            <div
+              style="font-family:var(--font-heading); font-size:3rem; color:var(--text-primary); margin-bottom: 2rem;">
+              ₹5,000</div>
+            <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:2rem;">Perfect for quick
+              learners who want an intensive, fast-paced bootcamp experience.</p>
+            <a href="contact.html" class="btn btn-outline" style="width:100%; justify-content:center;">Select Plan</a>
+          </div>
+
+          <div class="glass-card"
+            style="flex:1; min-width:280px; max-width:320px; border:1px solid var(--glass-border); border-radius:1.5rem; padding:3rem 2rem; text-align:center;">
+            <div
+              style="font-size:1rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1.5rem; font-weight: 600;">
+              6 Months</div>
+            <div
+              style="font-family:var(--font-heading); font-size:3rem; color:var(--text-primary); margin-bottom: 2rem;">
+              ₹8,000</div>
+            <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:2rem;">The standard
+              duration. Ideal for balancing college academics with consistent tech upskilling.</p>
+            <a href="contact.html" class="btn btn-outline" style="width:100%; justify-content:center;">Select Plan</a>
+          </div>
+
+          <div class="glass-card"
+            style="flex:1; min-width:280px; max-width:320px; background:rgba(167,139,250,0.05); border:1px solid rgba(167,139,250,0.3); border-radius:1.5rem; padding:3rem 2rem; text-align:center; position:relative; overflow:hidden; transform: scale(1.05); z-index: 2;">
+            <div style="position:absolute; top:0; left:0; width:100%; height:6px; background:var(--purple);"></div>
+            <div
+              style="position:absolute; top:1rem; right:-2rem; background:var(--purple); color:#000; font-size:0.7rem; font-weight:bold; padding:0.25rem 2.5rem; transform:rotate(45deg); letter-spacing:0.1em;">
+              PREMIUM</div>
+            <div
+              style="font-size:1rem; color:var(--purple); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1.5rem; font-weight:bold;">
+              12 Months</div>
+            <div
+              style="font-family:var(--font-heading); font-size:3rem; color:var(--text-primary); margin-bottom: 2rem;">
+              ₹12,000</div>
+            <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:2rem;">A full year of
+              continuous mentorship, multiple projects, and extensive placement preparation.</p>
+            <a href="contact.html" class="btn btn-primary" style="width:100%; justify-content:center;">Select Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container" style="max-width:800px;">
+      <div class="section-header fade-in">
+        <span class="label">Course FAQ</span>
+        <h2>Frequently Asked<br><span class="text-accent">Questions</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="fade-in">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Do I need prior coding experience?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>No prior experience is required! This track is designed from absolute scratch. We start with the extreme
+              basics of logic before writing a single line of code.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Why is Java the core language for this track?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>Java is heavily preferred for enterprise backend roles, Android development, and large-scale systems.
+              Mastering Java's strict typing and Object-Oriented principles gives you an incredibly strong foundation
+              that makes learning any other language much easier.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">How does the assured internship work?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>Upon successful completion of your major capstone project and all evaluations, you will be granted an
+              official internship certificate from ReSamskar, validating your project work as formal industry
+              experience.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">What kind of support will I get?<span
+              class="icon">+</span></button>
+          <div class="faq-answer">
+            <p>You will have continuous access to your mentor. This includes code reviews, debugging sessions,
+              conceptual doubt clearing, and regular progress tracking to ensure you don't fall behind.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner fade-in">
+        <span class="label">Ready to Build?</span>
+        <h2 style="margin-top:1rem;">Start Your Coding <span class="text-accent">Journey Today</span></h2>
+        <p>Enroll in the Programming Fundamentals track and build a rock-solid foundation for a successful software
+          engineering career.</p>
+        <a href="contact.html" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer" style="padding: 100px 0 0;">
+    <div class="container">
+      <div
+        style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 3rem; margin-bottom: 5rem;">
+        <div style="flex: 1 1 400px;">
+          <span class="label" style="font-size: 0.85rem; letter-spacing: 0.2em;">BEGIN THE JOURNEY</span>
+          <h2 style="margin-top: 1rem; font-size: 2.5rem; letter-spacing: -0.02em;">Accelerate Your Career</h2>
+          <p style="margin-top: 1.5rem; font-size: 1.1rem; max-width: 500px;">Every student deserves an education that
+            transforms them into a capable tech professional — mind, skills, and career.</p>
+        </div>
+        <div style="flex: 1 1 400px; display: flex; flex-direction: column; gap: 2rem; align-items: flex-start;">
+          <a href="mailto:hello@tesseract.resamskar.com"
+            style="font-family: var(--font-heading); font-size: clamp(1.5rem, 3vw, 2.5rem); font-style: italic; color: var(--accent); text-decoration: none; transition: var(--transition);">hello@tesseract.resamskar.com</a>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://wa.me/+919955477663" class="btn btn-outline"
+              style="border-radius: 50px; padding: 0.75rem 2rem;">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="border-top: 1px solid var(--glass-border); padding: 2rem 0;">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <a href="index.html" class="nav-logo">
+            <div class="logo-icon"><span>T</span></div>
+            Tesseract
+          </a>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">© 2026 Tesseract by ReSamskar. All rights
+            reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/syllabus-data.js"></script>
+  <script>
+    document.getElementById('mobileToggle').addEventListener('click', () => { document.getElementById('navLinks').classList.toggle('open'); });
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    window.addEventListener('scroll', () => { document.getElementById('navbar').style.padding = window.scrollY > 50 ? '0.5rem 0' : '1rem 0'; });
+
+    function toggleFaq(btn) {
+      btn.parentElement.classList.toggle('open');
+    }
+
+    // Global styles for native details marker hiding
+    document.head.insertAdjacentHTML("beforeend", `<style>
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] > summary .icon { transform: rotate(45deg); color: var(--accent) !important; }
+  details .icon { transition: transform 0.3s ease; }
+</style>`);
+
+    function renderSyllabus() {
+      const renderPhase = (monthsData, containerId) => {
+        const container = document.getElementById(containerId);
+        if (!container || !monthsData) return;
+
+        let html = '';
+        monthsData.forEach(month => {
+          let weeksHtml = '';
+          month.weeks.forEach(week => {
+            let cat = CATEGORIES[week.category] || CATEGORIES.java;
+            let daysHtml = '';
+            week.days.forEach(day => {
+              daysHtml += `
+            <div style="display: grid; grid-template-columns: 56px 1fr auto; gap: 12px; padding: 10px 0; border-bottom: 0.5px solid rgba(255,255,255,0.05); align-items: flex-start;">
+              <div style="font-size: 12px; font-weight: 500; color: var(--text-muted); padding-top: 2px;">Day ${day.day}</div>
+              <div>
+                <div style="font-size: 13.5px; color: var(--text-primary); line-height: 1.5;">${day.topic}</div>
+                <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px; display: flex; align-items: center; gap: 5px;">
+                  <span style="opacity: 0.7;"><i class='bx bx-wrench'></i></span> ${day.project}
+                </div>
+              </div>
+            </div>
+          `;
+            });
+
+            weeksHtml += `
+          <details class="syllabus-week" style="margin-bottom: 1.5rem; border-left: 2px solid ${cat.color}; padding-left: 1.5rem; position: relative;">
+            <summary style="cursor: pointer; outline: none;">
+              <div style="position: absolute; left: -6px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: ${cat.color}; box-shadow: 0 0 8px ${cat.color};"></div>
+              <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px dashed rgba(255,255,255,0.1);">
+                <h4 style="font-size: 1rem; color: var(--text-primary); margin: 0; display: flex; align-items: center; gap: 0.5rem;">Week ${week.week}: ${week.title} <span style="font-size: 0.8rem; opacity: 0.5;">(Click to expand)</span></h4>
+                <span style="display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 11px; font-weight: 500; background-color: ${cat.bg}; color: ${cat.color};">${cat.label}</span>
+              </div>
+            </summary>
+            <div style="padding-top: 1rem; animation: fadeIn 0.3s ease;">
+              ${daysHtml}
+            </div>
+          </details>
+        `;
+          });
+
+          html += `
+        <details class="syllabus-month" style="background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 0.5rem; margin-bottom: 1rem;">
+          <summary style="padding: 1rem 1.5rem; font-size: 1.1rem; cursor: pointer; outline: none; display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.25rem;">
+              <span style="font-size: 0.8rem; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase;">Month ${month.month}</span>
+              <span style="font-weight: 500;">${month.title}</span>
+            </div>
+            <span class="icon" style="font-size: 1.2rem; color: var(--text-muted);">+</span>
+          </summary>
+          <div style="padding: 0 1.5rem 1.5rem; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 0.5rem; padding-top: 1.5rem;">
+            <p style="color: var(--text-muted); margin-bottom: 2rem; font-style: italic; border-left: 2px solid var(--glass-border); padding-left: 1rem;">${month.theme}</p>
+            ${weeksHtml}
+          </div>
+        </details>
+      `;
+        });
+        container.innerHTML = html;
+      };
+
+      if (typeof syllabusData !== 'undefined') {
+        renderPhase(syllabusData[3], 'syllabus-phase-1');
+        renderPhase(syllabusData[6], 'syllabus-phase-2');
+        renderPhase(syllabusData[12], 'syllabus-phase-3');
+      }
+    }
+    document.addEventListener('DOMContentLoaded', renderSyllabus);
+  </script>
+</body>
+
+</html>
